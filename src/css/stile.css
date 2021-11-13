@@ -1,0 +1,234 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+}
+
+.justify-content {
+    display: flex;
+    justify-items: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.label-formulario {
+    width: 35%;
+}
+
+.input-formulario {
+    width: 65%;
+}
+
+.contenedor-login {
+    background-image: url(../../src/img/WhatsApp\ Image\ 2021-11-05\ at\ 5.39.03\ PM.jpeg);
+}
+
+.imagen-fondo {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.login {
+    width: 270px;
+    height: 300px !important;
+}
+
+.template {
+    background-color: rgba(212, 212, 212, .5);
+    padding: 20px 20px;
+}
+
+.template2 {
+    background-color: rgba(115, 115, 115, 0.5);
+    padding: 20px 20px;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.border {
+    border-radius: 15px;
+}
+
+.usuario,
+.passwork {
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgba(0, 93, 110, 1);
+    ;
+}
+
+.button-login {
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.button {
+    background-color: rgba(0, 93, 110, 1);
+    color: white;
+}
+
+.button-negro:hover {
+    background-color: black;
+}
+
+.button-rojo:hover {
+    background-color: #9D1424;
+}
+
+
+/***********************************/
+
+.contenedor-busqueda {
+    background-image: url(/src/img/WhatsApp\ Image\ 2021-11-05\ at\ 5.39.01\ PM.jpeg);
+}
+
+.header {
+    background-color: rgba(0, 93, 110, 1);
+}
+
+.h1 {
+    color: black;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav {
+    width: 40%;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.width-100 input {
+    width: 70%;
+    margin-bottom: 20px;
+    size: 30px;
+}
+
+.zona-busqueda {
+    width: 75%;
+    height: 500px;
+}
+
+textarea {
+    overflow: scroll;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+/********************/
+
+.contenedor-curso {
+    background-image: url(/src/img/WhatsApp\ Image\ 2021-11-05\ at\ 5.39.02\ PM.jpeg);
+}
+
+.curso-medidas {
+    width: 700px;
+    height: auto;
+    justify-content: space-around;
+}
+
+
+/************************/
+
+.contenedor-alumno {
+    background-image: url(/src/img/WhatsApp\ Image\ 2021-11-05\ at\ 5.39.01\ PM\ \(1\).jpeg);
+}
+
+
+/**********************/
+
+.contenedor-docente {
+    background-image: url(/src/img/WhatsApp\ Image\ 2021-11-05\ at\ 5.39.03\ PM\ \(1\).jpeg);
+}
+
+medidas-scroll {
+    height: 600px;
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: #9D1424;
+    border: 2px;
+    border-color: #9D1424;
+}
