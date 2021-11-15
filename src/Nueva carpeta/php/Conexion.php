@@ -7,7 +7,7 @@ class Conectar{
     protected function conexion(){
        try {
             //variable tipo objeto con valores de parametro las constantes de conexion:
-        $conectar = $this->base = new PDO("mysql:local=localhost;dbname=trabajadores","root","root");
+        $conectar = $this->base = new PDO("mysql:local=localhost;dbname=registro de trabajadores","root","");
         return $conectar;
        } catch (\Throwable $th) {
            print "Error".$th->getMessage()."<br/>";
