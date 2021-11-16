@@ -23,11 +23,11 @@
            
             <div id="usuario" class="usuario">
                 <label for="user" ><i class="fas fa-user"></i></label>
-                <input class="border" id="user" name="user" placeholder="user" type="email" />
+                <input class="border" id="user" name="correoUsuario" placeholder="user" type="email" />
             </div>
-            <div class="password">
+            <div id="clave" class="password">
                 <label for="password"><i class="fas fa-lock"></i></label>
-                <input class="border" name ="password" id="password" placeholder="clave" type="password" />
+                <input class="border" name ="claveUsuario" id="password" placeholder="clave" type="password" />
             </div>
             <button  type="button" id ="buttonLogin" class="border button button-negro button-login">aceptar</button>
             <button     class="border button button-rojo button-login">
@@ -35,8 +35,10 @@
             </button>
         </div>
     </div>
-    <script src="src/js/jquery.js" ></script>
-    <script src="src/js/app.js"></script>
+<!-----    <script src="src/js/jquery.js" ></script>  --->
+<script src="src/js/jquery.js" ></script>
+    <script src="src/js/apps.js"></script>
+    
 </body>
 
 </html>
