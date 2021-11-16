@@ -21,55 +21,59 @@
                 <div class="logo">
                     <img src="src/img/WhatsApp Image 2021-11-05 at 5.38.19 PM (1).jpeg" alt="cacecob logo" />
                 </div>
-                <nav class="nav">
+                 <nav class="nav">
                     <ul>
                         <li>
-                            <details>
-                                <summary><i class="fas fa-tasks"></i></summary>
-                                <option value="">
-                                    <details>
-                                        <summary><i class="fas fa-user-graduate"></i></summary>
-                                        <option value="">agregar</option>
-                                        <option value="">editar</option>
+                            <details class=" details option border-50">
+                                <summary class><i class="fas fa-tasks"></i></summary>
+                             <div class="opciones-iconos border">
+                                 <option class="" value="">
+                                         <details class="justify-content width-100" >
+                                        <summary class ="justify-content" > <p class="input-formulario" >alumnos</p> <i class="border-50 fas fa-user-graduate"></i></summary>
+                                        <option class=" " value="">agregar</option>
+                                        <option class="" value="">editar</option>
                                     </details>
                                 </option>
-                                <option value="">
-                                    <details>
-                                        <summary><i class="fas fa-user-tie"></i></summary>
-                                        <option value="">agregar</option>
-                                        <option value="">editar</option>
+                                <option class="" value="">
+                                    <details class="justify-content width-100" >
+                                        <summary class="justify-content" > <p class="input-formulario" >profesor</p> <i class="border-50 fas fa-user-tie"></i></summary>
+                                        <option class="" value="">agregar</option>
+                                        <option class="" value="">editar</option>
                                     </details>
                                 </option>
-                                <option value="">
-                                    <details>
-                                        <summary><i class="far fa-id-card"></i></summary>
-                                        <option value="">agregar</option>
-                                        <option value="">editar</option>
+                                <option class="" value="">
+                                    <details class="justify-content width-100" >
+                                        <summary class="justify-content" > <p class="input-formulario" >Documento</p> <i class=" border-50 far fa-id-card"></i></summary>
+                                        <option class=" " value="">agregar</option>
+                                        <option class="" value="">editar</option>
                                     </details>
                                 </option>
-                                <option value="">
-                                    <details>
-                                        <summary><i class="fas fa-balance-scale"></i></summary>
-                                        <option value="">agregar</option>
-                                        <option value="">editar</option>
+                                <option class="" value="">
+                                    <details class="justify-content width-100" >
+                                        <summary class="justify-content" > <p class="input-formulario" >curso</p> <i class=" border-50 fas fa-balance-scale"></i></summary>
+                                        <option class=" " value="">agregar</option>
+                                        <option class=" " value="">editar</option>
                                     </details>
                                 </option>
 
-                                <option value="">
-                                    <details>
-                                        <summary><i class="fas fa-medal"></i></summary>
-                                        <option value="">agregar</option>
-                                        <option value="">editar</option>
+                                <option class=" " value="">
+                                    <details class=" justify-contentwidth-100" >
+                                        <summary class="justify-content " > <p class="input-formulario" >certificado</p> <i class=" border-50 fas fa-medal"></i></summary>
+                                        <option class=" " value="">agregar</option>
+                                        <option class=" " value="">editar</option>
                                     </details>
                                 </option>
+                             </div>
                             </details>
                         </li>
 
                         <li>
-                            <details>
-                                <summary><i class="fas fa-user-edit"></i></summary>
-                                <option value="">usuario</option>
-                                <option value="">salir</option>
+                            <details class="details ">
+                                <summary class="summary border-50"><i class="fas fa-user-edit"></i></summary>
+                                <div class="opciones border">
+                                    <option class="" value="">usuario</option>
+                                     <option class="" value="">salir</option>
+                                </div>
                             </details>
                         </li>
                     </ul>
